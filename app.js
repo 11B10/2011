@@ -2,7 +2,7 @@
   'use strict';
 
   const T = window.THREE;
-  const STORAGE_KEY = 'tri_an_20_11_books_v3';
+  const STORAGE_KEY = 'tri_an_20_11_books_v4';
   const SETTINGS_KEY = 'tri_an_20_11_settings_v3';
   const PUBLIC_GITHUB_PAGES_URL = 'https://11b10.github.io/2011/';
 
@@ -11,7 +11,8 @@
     'giao-luu-tiep-bien-van-hoa',
     'co-so-van-hoa-viet-nam',
     'viet-nam-van-hoa-su-cuong',
-    'lang-du-trong-van-hoa-viet-nam'
+    'lang-du-trong-van-hoa-viet-nam',
+    'long-than-tuong'
   ]);
 
   const DEFAULT_BOOKS = [
@@ -154,6 +155,34 @@
       ],
       quote: '“Hòa nhập với nhân loại nhưng tuyệt đối không hòa tan bản sắc cội nguồn.”',
       takeaway: 'Mỗi trang ký văn hóa là nhịp cầu đưa tri thức và hồn Việt chạm tới trái tim.'
+    },
+    {
+      id: 'long-than-tuong',
+      shortTitle: 'Long Thần Tướng',
+      bgWord: 'THẦN TƯỚNG',
+      title: 'Long Thần Tướng: Tập 1',
+      author: 'Nguyễn Khánh Dương · Nguyễn Thành Phong',
+      url: 'https://books.google.com.vn/books?id=vFLWDwAAQBAJ&pg=PA8&hl=vi&source=gbs_toc_r&cad=2#v=onepage&q&f=false',
+      image: './assets/books/long-than-tuong.jpg',
+      accentColor: '#f87171',
+      glow1: 'rgba(239, 68, 68, 0.46)',
+      glow2: 'rgba(245, 158, 11, 0.38)',
+      bullets: [
+        {
+          heading: 'Hào khí Đông A thời Trần',
+          text: 'Tái hiện bối cảnh Đại Việt thế kỷ XIII trước cuộc kháng chiến chống quân Nguyên Mông lần thứ hai đầy bi tráng.'
+        },
+        {
+          heading: 'Khảo cứu cổ sử & mỹ thuật Việt',
+          text: 'Phục dựng tỉ mỉ trang phục, giáp trụ, kiến trúc và phong tục cổ truyền dựa trên tư liệu lịch sử nghiêm túc.'
+        },
+        {
+          heading: 'Tiếp lửa sử Việt cho thế hệ trẻ',
+          text: 'Đưa lịch sử dân tộc bước vào truyện tranh hiện đại, giành Giải Vàng Giải thưởng Truyện tranh Quốc tế Nhật Bản (2016).'
+        }
+      ],
+      quote: '“Lịch sử không chỉ nằm trên trang giấy cũ mà sống dậy hào hùng trong từng nét vẽ Việt.”',
+      takeaway: 'Khơi dậy niềm tự hào sử Việt qua ngôn ngữ nghệ thuật thị giác đương đại.'
     }
   ];
 
