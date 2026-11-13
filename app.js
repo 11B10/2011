@@ -2,7 +2,7 @@
   'use strict';
 
   const T = window.THREE;
-  const STORAGE_KEY = 'tri_an_20_11_books_v7';
+  const STORAGE_KEY = 'tri_an_20_11_books_v8';
   const SETTINGS_KEY = 'tri_an_20_11_settings_v3';
   const PUBLIC_GITHUB_PAGES_URL = 'https://11b10.github.io/2011/';
 
@@ -13,7 +13,8 @@
     'viet-nam-van-hoa-su-cuong',
     'lang-du-trong-van-hoa-viet-nam',
     'long-than-tuong',
-    'det-nen-trieu-dai'
+    'det-nen-trieu-dai',
+    'ngan-nam-ao-mu'
   ]);
 
   const DEFAULT_BOOKS = [
@@ -212,6 +213,34 @@
       ],
       quote: '“Mỗi đường kim mũi chỉ trên cổ phục là một chương lịch sử sống động của văn hiến Đại Việt.”',
       takeaway: 'Gìn giữ và phục hưng vẻ đẹp trang phục truyền thống Việt Nam bằng tri thức khảo cứu chuẩn xác.'
+    },
+    {
+      id: 'ngan-nam-ao-mu',
+      shortTitle: 'Ngàn năm áo mũ',
+      bgWord: 'ÁO MŨ',
+      title: 'Ngàn năm áo mũ',
+      author: 'Học giả Trần Quang Đức',
+      url: 'https://www.google.com.vn/books/edition/_/-FcsMQAACAAJ?hl=en&kptab=overview',
+      image: './assets/books/ngan-nam-ao-mu.jpg',
+      accentColor: '#38bdf8',
+      glow1: 'rgba(56, 189, 248, 0.46)',
+      glow2: 'rgba(250, 204, 21, 0.38)',
+      bullets: [
+        {
+          heading: 'Hành trình 1000 năm trang phục Việt',
+          text: 'Khảo cứu toàn diện lịch sử biến đổi trang phục cung đình và dân gian Việt Nam xuyên suốt từ thời Lý đến thời Nguyễn (1009–1945).'
+        },
+        {
+          heading: 'Giải mã quy chế Áo Mũ các triều đại',
+          text: 'Đối chiếu hàng trăm nguồn sử liệu, bia ký, tranh tượng cổ để làm sáng tỏ kiểu dáng mũ miện, bào phục, khăn vấn và tục búi tóc.'
+        },
+        {
+          heading: 'Cột mốc khai phóng cổ phục học',
+          text: 'Phá bỏ những lầm tưởng về trang phục truyền thống, truyền cảm hứng mạnh mẽ cho làn sóng phục dựng cổ phục Việt đương đại.'
+        }
+      ],
+      quote: '“Trang phục không chỉ che thân mà còn phản chiếu tư tưởng, thẩm mỹ và khí chất của cả một thời đại.”',
+      takeaway: 'Công trình khảo cứu nền tảng mở ra bức tranh toàn cảnh về diện mạo người Việt suốt một thiên niên kỷ.'
     }
   ];
 
