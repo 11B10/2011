@@ -2,7 +2,7 @@
   'use strict';
 
   const T = window.THREE;
-  const STORAGE_KEY = 'tri_an_20_11_books_v6';
+  const STORAGE_KEY = 'tri_an_20_11_books_v7';
   const SETTINGS_KEY = 'tri_an_20_11_settings_v3';
   const PUBLIC_GITHUB_PAGES_URL = 'https://11b10.github.io/2011/';
 
@@ -164,7 +164,7 @@
       title: 'Long Thần Tướng',
       author: 'Phong Dương Comics (Khánh Dương · Thành Phong · Mỹ Anh)',
       url: 'https://books.google.com.vn/books?id=vFLWDwAAQBAJ&pg=PA8&hl=vi&source=gbs_toc_r&cad=2#v=onepage&q&f=false',
-      image: './assets/books/long-than-tuong.jpg',
+      image: './assets/books/long-than-tuong.jpg?v=2',
       accentColor: '#f87171',
       glow1: 'rgba(239, 68, 68, 0.46)',
       glow2: 'rgba(245, 158, 11, 0.38)',
@@ -192,7 +192,7 @@
       title: 'Dệt Nên Triều Đại',
       author: 'Vietnam Centre · Comicola',
       url: 'https://comi.mobi/truyen/det-nen-trieu-dai/',
-      image: './assets/books/det-nen-trieu-dai.jpg',
+      image: './assets/books/det-nen-trieu-dai.jpg?v=2',
       accentColor: '#eab308',
       glow1: 'rgba(234, 179, 8, 0.46)',
       glow2: 'rgba(185, 28, 28, 0.38)',
