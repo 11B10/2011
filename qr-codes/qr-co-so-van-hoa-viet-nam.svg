@@ -881,7 +881,7 @@
   <rect x="835.59" y="827.64" width="13.70" height="13.70" rx="5.48" fill="#1E293B"/>
   <line x1="170" y1="916" x2="830" y2="916" stroke="url(#accent2)" stroke-width="2.5"/>
   <text x="500" y="994" text-anchor="middle" font-family="Noto Serif Display, Noto Serif, Georgia, serif" font-size="47" font-weight="700" font-style="italic" fill="#0F172A">Cơ sở văn hóa Việt Nam</text>
-  <rect x="330" y="1038" width="340" height="44" rx="22" fill="#FEF2F2" stroke="#FECACA" stroke-width="1.5"/>
+  <rect x="375" y="1038" width="250" height="44" rx="22" fill="#FEF2F2" stroke="#FECACA" stroke-width="1.5"/>
   <text x="500" y="1067" text-anchor="middle"
-    font-family="Noto Sans, sans-serif" font-size="22" font-weight="700" letter-spacing="3.5" fill="#991B1B">11B10 · TRI ÂN 20/11</text>
+    font-family="Noto Sans, sans-serif" font-size="22" font-weight="700" letter-spacing="3.5" fill="#991B1B">TRI ÂN 20/11</text>
 </svg>
