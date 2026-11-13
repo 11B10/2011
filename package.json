@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phucstd115511/2011.git"
+    "url": "git+https://github.com/11B10/2011.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/phucstd115511/2011/issues"
+    "url": "https://github.com/11B10/2011/issues"
   },
-  "homepage": "https://github.com/phucstd115511/2011#readme",
+  "homepage": "https://github.com/11B10/2011#readme",
   "dependencies": {
     "@designcodeio/threeui": "^1.2.0"
   }

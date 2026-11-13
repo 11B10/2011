@@ -4,7 +4,7 @@
   const T = window.THREE;
   const STORAGE_KEY = 'tri_an_20_11_books_v3';
   const SETTINGS_KEY = 'tri_an_20_11_settings_v3';
-  const PUBLIC_GITHUB_PAGES_URL = 'https://phucstd115511.github.io/2011/';
+  const PUBLIC_GITHUB_PAGES_URL = 'https://11b10.github.io/2011/';
 
   const SUBPATH_SLUGS = new Set([
     'ban-sac-van-hoa-viet-nam',
