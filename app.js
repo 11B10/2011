@@ -2,7 +2,7 @@
   'use strict';
 
   const T = window.THREE;
-  const STORAGE_KEY = 'tri_an_20_11_books_v5';
+  const STORAGE_KEY = 'tri_an_20_11_books_v6';
   const SETTINGS_KEY = 'tri_an_20_11_settings_v3';
   const PUBLIC_GITHUB_PAGES_URL = 'https://11b10.github.io/2011/';
 
@@ -161,8 +161,8 @@
       id: 'long-than-tuong',
       shortTitle: 'Long Thần Tướng',
       bgWord: 'THẦN TƯỚNG',
-      title: 'Long Thần Tướng: Tập 1',
-      author: 'Nguyễn Khánh Dương · Nguyễn Thành Phong',
+      title: 'Long Thần Tướng',
+      author: 'Phong Dương Comics (Khánh Dương · Thành Phong · Mỹ Anh)',
       url: 'https://books.google.com.vn/books?id=vFLWDwAAQBAJ&pg=PA8&hl=vi&source=gbs_toc_r&cad=2#v=onepage&q&f=false',
       image: './assets/books/long-than-tuong.jpg',
       accentColor: '#f87171',
@@ -170,20 +170,20 @@
       glow2: 'rgba(245, 158, 11, 0.38)',
       bullets: [
         {
-          heading: 'Hào khí Đông A thời Trần',
-          text: 'Tái hiện bối cảnh Đại Việt thế kỷ XIII trước cuộc kháng chiến chống quân Nguyên Mông lần thứ hai đầy bi tráng.'
+          heading: 'Bức tranh Đại Việt thời nhà Trần',
+          text: 'Bộ truyện tranh dã sử lấy bối cảnh nước Đại Việt trước và trong cuộc kháng chiến chống quân Nguyên Mông hào hùng.'
         },
         {
-          heading: 'Khảo cứu cổ sử & mỹ thuật Việt',
-          text: 'Phục dựng tỉ mỉ trang phục, giáp trụ, kiến trúc và phong tục cổ truyền dựa trên tư liệu lịch sử nghiêm túc.'
+          heading: 'Đan cài sử thật & số phận con người',
+          text: 'Kết nối hành trình của các nhân vật hư cấu với những danh tướng lịch sử như Trần Hưng Đạo, Trần Bình Trọng và bí ẩn Long Thần Tướng.'
         },
         {
-          heading: 'Tiếp lửa sử Việt cho thế hệ trẻ',
-          text: 'Đưa lịch sử dân tộc bước vào truyện tranh hiện đại, giành Giải Vàng Giải thưởng Truyện tranh Quốc tế Nhật Bản (2016).'
+          heading: 'Phục dựng văn hóa Việt bằng hội họa',
+          text: 'Khảo cứu công phu trang phục, kiến trúc, võ thuật và đời sống cổ truyền, giành Giải Vàng Truyện tranh Quốc tế Nhật Bản.'
         }
       ],
       quote: '“Lịch sử không chỉ nằm trên trang giấy cũ mà sống dậy hào hùng trong từng nét vẽ Việt.”',
-      takeaway: 'Khơi dậy niềm tự hào sử Việt qua ngôn ngữ nghệ thuật thị giác đương đại.'
+      takeaway: 'Tác phẩm dã sử tiêu biểu khơi dậy tình yêu lịch sử và văn hóa dân tộc cho thế hệ trẻ.'
     },
     {
       id: 'det-nen-trieu-dai',
@@ -198,20 +198,20 @@
       glow2: 'rgba(185, 28, 28, 0.38)',
       bullets: [
         {
-          heading: 'Khảo cứu cổ phục thời Lê Sơ',
-          text: 'Tái hiện hệ thống mũ áo, lễ phục cung đình Đại Việt giai đoạn 1437–1471 dựa trên chính sử và hiện vật khảo cổ.'
+          heading: 'Toàn cảnh trang phục cung đình Lê Sơ',
+          text: 'Công trình khảo cứu hệ thống quy chế mũ áo, lễ phục của hoàng gia và quan lại Đại Việt thời đầu nhà Hậu Lê.'
         },
         {
-          heading: 'Tư liệu phỏng dựng trực quan',
-          text: 'Kết hợp bản vẽ minh họa tỉ mỉ với ảnh chụp phục dựng thực tế chất liệu gấm vóc, thêu rồng phượng chuẩn mực.'
+          heading: 'Từ sử liệu đến phục dựng thực tế',
+          text: 'Kết hợp đối chiếu văn bản cổ, hiện vật khảo cổ với tranh vẽ minh họa chi tiết và bộ ảnh phỏng dựng gấm vóc sống động.'
         },
         {
-          heading: 'Đưa di sản Việt vươn tầm quốc tế',
-          text: 'Ấn phẩm song ngữ Việt – Anh mở lối cho điện ảnh, hội họa và thế hệ trẻ tự hào khoác lên mình trang phục tổ tiên.'
+          heading: 'Lan tỏa niềm tự hào Cổ phục Việt',
+          text: 'Ấn phẩm song ngữ Việt – Anh đặt nền móng trực quan cho điện ảnh, mỹ thuật và phong trào tìm về trang phục truyền thống.'
         }
       ],
       quote: '“Mỗi đường kim mũi chỉ trên cổ phục là một chương lịch sử sống động của văn hiến Đại Việt.”',
-      takeaway: 'Gìn giữ và phục hưng vẻ đẹp trang phục cung đình Việt Nam bằng tri thức khảo cổ chuẩn xác.'
+      takeaway: 'Gìn giữ và phục hưng vẻ đẹp trang phục truyền thống Việt Nam bằng tri thức khảo cứu chuẩn xác.'
     }
   ];
 
