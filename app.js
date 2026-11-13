@@ -2,7 +2,7 @@
   'use strict';
 
   const T = window.THREE;
-  const STORAGE_KEY = 'tri_an_20_11_books_v4';
+  const STORAGE_KEY = 'tri_an_20_11_books_v5';
   const SETTINGS_KEY = 'tri_an_20_11_settings_v3';
   const PUBLIC_GITHUB_PAGES_URL = 'https://11b10.github.io/2011/';
 
@@ -12,7 +12,8 @@
     'co-so-van-hoa-viet-nam',
     'viet-nam-van-hoa-su-cuong',
     'lang-du-trong-van-hoa-viet-nam',
-    'long-than-tuong'
+    'long-than-tuong',
+    'det-nen-trieu-dai'
   ]);
 
   const DEFAULT_BOOKS = [
@@ -183,6 +184,34 @@
       ],
       quote: '“Lịch sử không chỉ nằm trên trang giấy cũ mà sống dậy hào hùng trong từng nét vẽ Việt.”',
       takeaway: 'Khơi dậy niềm tự hào sử Việt qua ngôn ngữ nghệ thuật thị giác đương đại.'
+    },
+    {
+      id: 'det-nen-trieu-dai',
+      shortTitle: 'Dệt Nên Triều Đại',
+      bgWord: 'CỔ PHỤC',
+      title: 'Dệt Nên Triều Đại',
+      author: 'Vietnam Centre · Comicola',
+      url: 'https://comi.mobi/truyen/det-nen-trieu-dai/',
+      image: './assets/books/det-nen-trieu-dai.jpg',
+      accentColor: '#eab308',
+      glow1: 'rgba(234, 179, 8, 0.46)',
+      glow2: 'rgba(185, 28, 28, 0.38)',
+      bullets: [
+        {
+          heading: 'Khảo cứu cổ phục thời Lê Sơ',
+          text: 'Tái hiện hệ thống mũ áo, lễ phục cung đình Đại Việt giai đoạn 1437–1471 dựa trên chính sử và hiện vật khảo cổ.'
+        },
+        {
+          heading: 'Tư liệu phỏng dựng trực quan',
+          text: 'Kết hợp bản vẽ minh họa tỉ mỉ với ảnh chụp phục dựng thực tế chất liệu gấm vóc, thêu rồng phượng chuẩn mực.'
+        },
+        {
+          heading: 'Đưa di sản Việt vươn tầm quốc tế',
+          text: 'Ấn phẩm song ngữ Việt – Anh mở lối cho điện ảnh, hội họa và thế hệ trẻ tự hào khoác lên mình trang phục tổ tiên.'
+        }
+      ],
+      quote: '“Mỗi đường kim mũi chỉ trên cổ phục là một chương lịch sử sống động của văn hiến Đại Việt.”',
+      takeaway: 'Gìn giữ và phục hưng vẻ đẹp trang phục cung đình Việt Nam bằng tri thức khảo cổ chuẩn xác.'
     }
   ];
 
