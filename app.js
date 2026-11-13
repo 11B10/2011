@@ -2,7 +2,7 @@
   'use strict';
 
   const T = window.THREE;
-  const STORAGE_KEY = 'tri_an_20_11_books_v8';
+  const STORAGE_KEY = 'tri_an_20_11_books_v9';
   const SETTINGS_KEY = 'tri_an_20_11_settings_v3';
   const PUBLIC_GITHUB_PAGES_URL = 'https://11b10.github.io/2011/';
 
@@ -165,7 +165,7 @@
       title: 'Long Thần Tướng',
       author: 'Phong Dương Comics (Khánh Dương · Thành Phong · Mỹ Anh)',
       url: 'https://books.google.com.vn/books?id=vFLWDwAAQBAJ&pg=PA8&hl=vi&source=gbs_toc_r&cad=2#v=onepage&q&f=false',
-      image: './assets/books/long-than-tuong.jpg?v=2',
+      image: './assets/books/long-than-tuong.jpg?v=8',
       accentColor: '#f87171',
       glow1: 'rgba(239, 68, 68, 0.46)',
       glow2: 'rgba(245, 158, 11, 0.38)',
@@ -193,7 +193,7 @@
       title: 'Dệt Nên Triều Đại',
       author: 'Vietnam Centre · Comicola',
       url: 'https://comi.mobi/truyen/det-nen-trieu-dai/',
-      image: './assets/books/det-nen-trieu-dai.jpg?v=2',
+      image: './assets/books/det-nen-trieu-dai.jpg?v=8',
       accentColor: '#eab308',
       glow1: 'rgba(234, 179, 8, 0.46)',
       glow2: 'rgba(185, 28, 28, 0.38)',
@@ -221,7 +221,7 @@
       title: 'Ngàn năm áo mũ',
       author: 'Học giả Trần Quang Đức',
       url: 'https://www.google.com.vn/books/edition/_/-FcsMQAACAAJ?hl=en&kptab=overview',
-      image: './assets/books/ngan-nam-ao-mu.jpg',
+      image: './assets/books/ngan-nam-ao-mu.jpg?v=8',
       accentColor: '#38bdf8',
       glow1: 'rgba(56, 189, 248, 0.46)',
       glow2: 'rgba(250, 204, 21, 0.38)',
@@ -284,7 +284,15 @@
       const raw = localStorage.getItem(STORAGE_KEY);
       if (raw) {
         const parsed = JSON.parse(raw);
-        if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          const existingIds = new Set(parsed.map((b) => b && b.id));
+          for (const def of DEFAULT_BOOKS) {
+            if (!existingIds.has(def.id)) {
+              parsed.push(JSON.parse(JSON.stringify(def)));
+            }
+          }
+          return parsed;
+        }
       }
     } catch (_) {}
     return JSON.parse(JSON.stringify(DEFAULT_BOOKS));
