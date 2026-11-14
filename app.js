@@ -2,7 +2,7 @@
   'use strict';
 
   const T = window.THREE;
-  const STORAGE_KEY = 'tri_an_20_11_books_v9';
+  const STORAGE_KEY = 'tri_an_20_11_books_v10';
   const SETTINGS_KEY = 'tri_an_20_11_settings_v3';
   const PUBLIC_GITHUB_PAGES_URL = 'https://11b10.github.io/2011/';
 
@@ -14,7 +14,8 @@
     'lang-du-trong-van-hoa-viet-nam',
     'long-than-tuong',
     'det-nen-trieu-dai',
-    'ngan-nam-ao-mu'
+    'ngan-nam-ao-mu',
+    'tho-bay-mau'
   ]);
 
   const DEFAULT_BOOKS = [
@@ -241,6 +242,34 @@
       ],
       quote: '“Trang phục không chỉ che thân mà còn phản chiếu tư tưởng, thẩm mỹ và khí chất của cả một thời đại.”',
       takeaway: 'Công trình khảo cứu nền tảng mở ra bức tranh toàn cảnh về diện mạo người Việt suốt một thiên niên kỷ.'
+    },
+    {
+      id: 'tho-bay-mau',
+      shortTitle: 'Thỏ Bảy Màu',
+      bgWord: 'BẢY MÀU',
+      title: 'Thỏ Bảy Màu',
+      author: 'Họa sĩ Huỳnh Thái Ngọc · Comi',
+      url: 'https://comi.mobi/truyen/tho-bay-mau/',
+      image: './assets/books/tho-bay-mau.jpg?v=9',
+      accentColor: '#ec4899',
+      glow1: 'rgba(236, 72, 153, 0.46)',
+      glow2: 'rgba(168, 85, 247, 0.40)',
+      bullets: [
+        {
+          heading: 'Truyện tranh đời thường hài hước Việt',
+          text: 'Xoay quanh cuộc sống thường ngày vừa ngây ngô vừa “lầy lội” của chú Thỏ trắng gắn nơ hồng cùng Ông Năm, Xô, chị Xoài và những người bạn.'
+        },
+        {
+          heading: 'Lăng kính châm biếm & năng lượng tích cực',
+          text: 'Biến những tình huống học đường, công sở và đời sống giới trẻ thành tiếng cười sảng khoái bằng nét vẽ tối giản nhưng giàu biểu cảm.'
+        },
+        {
+          heading: 'Biểu tượng sáng tạo trẻ Việt Nam',
+          text: 'Từ những mẩu truyện mạng trên Comi vươn thành thương hiệu truyện tranh, sách in và hoạt hình đại chúng được hàng triệu độc giả yêu mến.'
+        }
+      ],
+      quote: '“Nghe lời Thỏ, kiếp này coi như bỏ — nhưng tiếng cười hồn nhiên thì ở lại mãi.”',
+      takeaway: 'Sức sống của truyện tranh Việt hiện đại: gần gũi, dí dỏm và kết nối thế hệ trẻ bằng tiếng cười văn minh.'
     }
   ];
 
