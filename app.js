@@ -2,7 +2,7 @@
   'use strict';
 
   const T = window.THREE;
-  const STORAGE_KEY = 'tri_an_20_11_books_v10';
+  const STORAGE_KEY = 'tri_an_20_11_books_v11';
   const SETTINGS_KEY = 'tri_an_20_11_settings_v3';
   const PUBLIC_GITHUB_PAGES_URL = 'https://11b10.github.io/2011/';
 
@@ -15,7 +15,8 @@
     'long-than-tuong',
     'det-nen-trieu-dai',
     'ngan-nam-ao-mu',
-    'tho-bay-mau'
+    'tho-bay-mau',
+    'canh-hoa-troi-giua-hoang-trieu'
   ]);
 
   const DEFAULT_BOOKS = [
@@ -270,6 +271,34 @@
       ],
       quote: '“Nghe lời Thỏ, kiếp này coi như bỏ — nhưng tiếng cười hồn nhiên thì ở lại mãi.”',
       takeaway: 'Sức sống của truyện tranh Việt hiện đại: gần gũi, dí dỏm và kết nối thế hệ trẻ bằng tiếng cười văn minh.'
+    },
+    {
+      id: 'canh-hoa-troi-giua-hoang-trieu',
+      shortTitle: 'Cánh Hoa Trôi',
+      bgWord: 'HOÀNG TRIỀU',
+      title: 'Cánh Hoa Trôi Giữa Hoàng Triều',
+      author: 'Họa sĩ Tuyết Tuyết · POPS & Comicola',
+      url: 'https://pops.vn/comics/canh-hoa-troi-giua-hoang-trieu-5eb50388aa63450033ea5ab1',
+      image: './assets/books/canh-hoa-troi-giua-hoang-trieu.jpg?v=10',
+      accentColor: '#fb7185',
+      glow1: 'rgba(251, 113, 133, 0.46)',
+      glow2: 'rgba(45, 212, 191, 0.38)',
+      bullets: [
+        {
+          heading: 'Bi kịch Nữ đế duy nhất sử Việt',
+          text: 'Khắc họa cuộc đời nhiều biến động của Lý Chiêu Hoàng — vị nữ hoàng đế lên ngôi khi mới sáu tuổi giữa buổi hoàng hôn của triều đại nhà Lý.'
+        },
+        {
+          heading: 'Cuộc chuyển giao quyền lực Lý – Trần',
+          text: 'Tái hiện những mưu lược chính trị chốn thâm cung cùng mối duyên thơ ngây mà đầy trắc trở giữa Lý Chiêu Hoàng và Trần Cảnh (vua Trần Thái Tông).'
+        },
+        {
+          heading: 'Hơi thở cung đình qua nét vẽ trẻ',
+          text: 'Kết hợp chất liệu chính sử với ngôn ngữ truyện tranh hiện đại, đưa lịch sử Đại Việt thế kỷ XIII chạm tới cảm xúc của hàng triệu độc giả.'
+        }
+      ],
+      quote: '“Giữa vòng xoáy vương quyền, kiếp người mỏng manh như cánh hoa trôi trên dòng nước lịch sử.”',
+      takeaway: 'Thấu cảm thân phận con người đằng sau những trang sử lớn của thời đại Lý – Trần.'
     }
   ];
 
