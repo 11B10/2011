@@ -2,7 +2,7 @@
   'use strict';
 
   const T = window.THREE;
-  const STORAGE_KEY = 'tri_an_20_11_books_v11';
+  const STORAGE_KEY = 'tri_an_20_11_books_v12';
   const SETTINGS_KEY = 'tri_an_20_11_settings_v3';
   const PUBLIC_GITHUB_PAGES_URL = 'https://11b10.github.io/2011/';
 
@@ -16,7 +16,16 @@
     'det-nen-trieu-dai',
     'ngan-nam-ao-mu',
     'tho-bay-mau',
-    'canh-hoa-troi-giua-hoang-trieu'
+    'canh-hoa-troi-giua-hoang-trieu',
+    'cam-nang-chuyen-doi-so-di-san',
+    'khai-huyen-muon',
+    'tran-hung-dao-lsvn-bang-tranh',
+    'tuc-mac-co-giai-nhan',
+    'sai-gon-xua-va-nay',
+    'van-hoa-va-hoi-nhap-tap-2',
+    'tiep-bien-van-hoa-ly-thuyet-he-thong',
+    'giao-luu-tiep-bien-trong-toan-cau-hoa',
+    'van-hoa-viet-nam-truyen-thong-va-hien-dai'
   ]);
 
   const DEFAULT_BOOKS = [
@@ -82,7 +91,7 @@
       bgWord: 'CƠ SỞ',
       title: 'Cơ sở văn hóa Việt Nam',
       author: 'GS. TSKH Trần Ngọc Thêm',
-      url: 'https://fr.scribd.com/document/945446496/C%C6%A1-S%E1%BB%9F-V%C4%83n-Hoa-Vi%E1%BB%87t-Nam-Tr%E1%BA%A7n-Ng%E1%BB%8Dc-Them-Nxb-%C4%90HQGHN-2024',
+      url: 'https://drive.google.com/file/d/1cS8409XUJLqwh2Bjf1gH8AlKL2CniSBb/view',
       image: './assets/books/co-so-van-hoa-viet-nam.jpg',
       accentColor: '#fbbf24',
       glow1: 'rgba(251, 191, 36, 0.46)',
@@ -222,7 +231,7 @@
       bgWord: 'ÁO MŨ',
       title: 'Ngàn năm áo mũ',
       author: 'Học giả Trần Quang Đức',
-      url: 'https://www.google.com.vn/books/edition/_/-FcsMQAACAAJ?hl=en&kptab=overview',
+      url: 'https://www.google.com.vn/books/edition/_/-FcsMQAACAAJ?hl=en&sa=X&ved=2ahUKEwjd56-YoIWYAxWmin0EHQn_HRYQ8fIDegQIDxAD',
       image: './assets/books/ngan-nam-ao-mu.jpg?v=8',
       accentColor: '#38bdf8',
       glow1: 'rgba(56, 189, 248, 0.46)',
@@ -299,6 +308,258 @@
       ],
       quote: '“Giữa vòng xoáy vương quyền, kiếp người mỏng manh như cánh hoa trôi trên dòng nước lịch sử.”',
       takeaway: 'Thấu cảm thân phận con người đằng sau những trang sử lớn của thời đại Lý – Trần.'
+    },
+    {
+      id: 'cam-nang-chuyen-doi-so-di-san',
+      shortTitle: 'Chuyển đổi số di sản',
+      bgWord: 'DI SẢN SỐ',
+      title: 'Cẩm nang chuyển đổi số trong truyền thông và phát huy di sản văn hóa ở cơ sở',
+      author: 'NXB Văn hóa Dân tộc',
+      url: 'https://nxbvanhoadantoc.vn/Books/Pdf/55',
+      image: './assets/books/cam-nang-chuyen-doi-so-di-san.jpg?v=11',
+      accentColor: '#2dd4bf',
+      glow1: 'rgba(45, 212, 191, 0.44)',
+      glow2: 'rgba(250, 204, 21, 0.36)',
+      bullets: [
+        {
+          heading: 'Số hóa truyền thông văn hóa cơ sở',
+          text: 'Hướng dẫn thực hành vận hành loa truyền thanh thông minh, xây dựng kênh Zalo, fanpage cộng đồng đưa thông tin văn hóa tới từng thôn bản.'
+        },
+        {
+          heading: 'Kỹ năng sản xuất nội dung di sản',
+          text: 'Trang bị phương pháp quay dựng video ngắn, chụp ảnh tư liệu và tổ chức sự kiện trực tuyến nhằm quảng bá lễ hội, nghề truyền thống địa phương.'
+        },
+        {
+          heading: 'Lan tỏa di sản trong kỷ nguyên số',
+          text: 'Cầu nối giữa cán bộ văn hóa xã phường và thế hệ trẻ trong công cuộc bảo tồn, phát huy giá trị văn hóa các dân tộc Việt Nam.'
+        }
+      ],
+      quote: '“Công nghệ số giúp tiếng cồng chiêng và hồn cốt di sản cơ sở ngân vang xa hơn bao giờ hết.”',
+      takeaway: 'Cẩm nang thiết thực biến công cụ số thành đòn bẩy gìn giữ và lan tỏa văn hóa địa phương.'
+    },
+    {
+      id: 'khai-huyen-muon',
+      shortTitle: 'Khải Huyền Muộn',
+      bgWord: 'CHIÊM NGHIỆM',
+      title: 'Khải Huyền Muộn',
+      author: 'Nhà văn Nguyễn Việt Hà',
+      url: 'https://vietmessenger.com/books/?title=khai%20huyen%20muon',
+      image: './assets/books/khai-huyen-muon.jpg?v=11',
+      accentColor: '#f59e0b',
+      glow1: 'rgba(245, 158, 11, 0.44)',
+      glow2: 'rgba(147, 51, 234, 0.38)',
+      bullets: [
+        {
+          heading: 'Cấu trúc tiểu thuyết lồng trong tiểu thuyết',
+          text: 'Đan xen hai thế giới giữa nguyên mẫu ngoài đời và trang viết dang dở của nhà văn Bạch về mối quan hệ đầy trớ trêu giữa Cẩm My và Vũ.'
+        },
+        {
+          heading: 'Bức tranh thị dân Hà Nội đương đại',
+          text: 'Khắc họa bằng giọng văn trào phúng, sắc lạnh những góc khuất quyền lực, danh vọng và sự chới với tinh thần trong xã hội chuyển mình.'
+        },
+        {
+          heading: 'Hành trình kiếm tìm đức tin & cứu rỗi',
+          text: 'Đối thoại giữa Nho, Phật và Kitô giáo để phơi bày nỗi cô độc của người cầm bút cùng khao khát tìm lại điểm tựa đạo đức muộn màng.'
+        }
+      ],
+      quote: '“Đời sống nhiều khi chỉ hiện nguyên hình rõ nét nhất qua những trang bản thảo còn đang dang dở.”',
+      takeaway: 'Tác phẩm văn học đô thị giàu tính tự sự và chiêm nghiệm triết lý về nhân sinh thời hiện đại.'
+    },
+    {
+      id: 'tran-hung-dao-lsvn-bang-tranh',
+      shortTitle: 'Trần Hưng Đạo',
+      bgWord: 'HƯNG ĐẠO',
+      title: 'Lịch sử Việt Nam bằng tranh: Trần Hưng Đạo',
+      author: 'Tôn Nữ Quỳnh Trân · Họa sĩ Nguyễn Quang Cảnh (NXB Trẻ)',
+      url: 'https://drive.google.com/file/d/1K5lEo95UtpNJydBvfwtK7pdHf4UigEls/view?usp=drivesdk',
+      image: './assets/books/tran-hung-dao-lsvn-bang-tranh.jpg?v=11',
+      accentColor: '#f97316',
+      glow1: 'rgba(249, 115, 22, 0.46)',
+      glow2: 'rgba(220, 38, 38, 0.40)',
+      bullets: [
+        {
+          heading: 'Khí phách Quốc công Tiết chế Trần Hưng Đạo',
+          text: 'Tái hiện chân dung vị anh hùng kiệt xuất ba lần lãnh đạo quân dân Đại Việt đánh bại đế chế Nguyên Mông xâm lược thế kỷ XIII.'
+        },
+        {
+          heading: 'Hào khí Đông A & trận quyết chiến Bạch Đằng',
+          text: 'Từ áng thiên cổ hùng văn “Hịch Tướng Sĩ” đến mưu lược đóng cọc gỗ đầu bịt sắt trên sông Bạch Đằng đại phá thủy quân Ô Mã Nhi.'
+        },
+        {
+          heading: 'Sử Việt gần gũi qua từng trang tranh',
+          text: 'Kết hợp sử liệu chuẩn xác với nét vẽ minh họa sinh động thuộc bộ sách Lịch sử Việt Nam bằng tranh kinh điển của NXB Trẻ.'
+        }
+      ],
+      quote: '“Nếu bệ hạ muốn hàng, xin hãy chém đầu thần trước đã!”',
+      takeaway: 'Khắc sâu bài học đại đoàn kết, lòng trung nghĩa và trí tuệ quân sự lỗi lạc của cha ông.'
+    },
+    {
+      id: 'tuc-mac-co-giai-nhan',
+      shortTitle: 'Tức Mặc Có Giai Nhân',
+      bgWord: 'TỨC MẶC',
+      title: 'Tức Mặc Có Giai Nhân',
+      author: 'Đồng Lạc · Lạc Cõi Ngàn Năm',
+      url: 'https://laccoingannam.wordpress.com/2018/01/10/oneshot-tuc-mac-co-giai-nhan/',
+      image: './assets/books/tuc-mac-co-giai-nhan.jpg?v=11',
+      accentColor: '#fbbf24',
+      glow1: 'rgba(251, 191, 36, 0.44)',
+      glow2: 'rgba(16, 185, 129, 0.36)',
+      bullets: [
+        {
+          heading: 'Cuộc hội ngộ định mệnh nơi bến nước Hải Ấp',
+          text: 'Lấy cảm hứng từ cuộc gặp gỡ giữa Thái tử Lý Sảm và người thiếu nữ họ Trần (sau là Linh Từ Quốc mẫu Trần Thị Dung) giữa loạn thế cuối triều Lý.'
+        },
+        {
+          heading: 'Khúc dạo đầu cuộc chuyển giao Lý – Trần',
+          text: 'Tái hiện bầu không khí vừa thơ mộng vừa ẩn chứa sóng ngầm chính biến mở đường cho cơ nghiệp nhà Trần lừng lẫy về sau.'
+        },
+        {
+          heading: 'Dã sử văn chương giàu chất trữ tình',
+          text: 'Ngòi bút mềm mại thổi hồn vào những dòng biên niên sử khô khan, khắc họa vẻ đẹp và bản lĩnh người phụ nữ Đại Việt.'
+        }
+      ],
+      quote: '“Một lần dừng thuyền bên bến Tức Mặc, xoay chuyển vận mệnh cả hai vương triều.”',
+      takeaway: 'Góc nhìn văn chương tinh tế về giao điểm giữa tình cảm con người và dòng chảy lịch sử dân tộc.'
+    },
+    {
+      id: 'sai-gon-xua-va-nay',
+      shortTitle: 'Sài Gòn Xưa & Nay',
+      bgWord: 'SÀI GÒN',
+      title: 'Sài Gòn Xưa Và Nay',
+      author: 'Tạp chí Xưa & Nay · NXB Trẻ',
+      url: 'https://archive.org/details/sai-gon-xua-va-nay/page/n3/mode/2up',
+      image: './assets/books/sai-gon-xua-va-nay.jpg?v=11',
+      accentColor: '#fb923c',
+      glow1: 'rgba(251, 146, 60, 0.46)',
+      glow2: 'rgba(180, 83, 9, 0.38)',
+      bullets: [
+        {
+          heading: 'Hơn ba thế kỷ ký ức Sài Gòn – Gia Định',
+          text: 'Tập hợp các bài nghiên cứu công phu về quá trình khai phá, quy hoạch đô thị, kiến trúc di sản từ Bến Nhà Rồng, Chợ Bến Thành đến đô thị hiện đại.'
+        },
+        {
+          heading: 'Đời sống văn hóa – xã hội phóng khoáng',
+          text: 'Khắc họa diện mạo Sài Gòn – Chợ Lớn qua báo chí, sinh hoạt thị dân, giao thương sông nước và sự giao thoa đa văn hóa Nam Bộ.'
+        },
+        {
+          heading: 'Tư liệu quý về lịch sử địa danh Thành phố',
+          text: 'Lưu giữ ký ức tên đường, bến bãi và những đổi thay qua thăng trầm thời cuộc của đầu tàu kinh tế – văn hóa phương Nam.'
+        }
+      ],
+      quote: '“Hiểu Sài Gòn xưa để càng thêm trân trọng từng góc phố, nhịp cầu của thành phố hôm nay.”',
+      takeaway: 'Kho tư liệu lịch sử và ký ức đô thị sâu sắc dành cho những ai yêu mến mảnh đất Sài Gòn – TP.HCM.'
+    },
+    {
+      id: 'van-hoa-va-hoi-nhap-tap-2',
+      shortTitle: 'Văn hóa & Hội nhập 2',
+      bgWord: 'DUNG HỢP',
+      title: 'Văn hóa và hội nhập: Tiếp biến và dung hợp văn hóa Việt Nam (Tập 2)',
+      author: 'PGS. TS. Nguyễn Thừa Hỷ',
+      url: 'https://ebook365.vn/van-hoa-va-hoi-nhap-tiep-bien-va-dung-hop-van-hoa-viet-nam-tap-2-rxeBxW.html',
+      image: './assets/books/van-hoa-va-hoi-nhap-tap-2.jpg?v=11',
+      accentColor: '#34d399',
+      glow1: 'rgba(52, 211, 153, 0.44)',
+      glow2: 'rgba(245, 158, 11, 0.38)',
+      bullets: [
+        {
+          heading: 'Chủ thể văn hóa trước các làn sóng giao lưu',
+          text: 'Khảo cứu quá trình người Việt đối thoại, tiếp thu và cải biến các giá trị văn hóa Đông Á lẫn phương Tây thành tài sản tinh thần của mình.'
+        },
+        {
+          heading: 'Cơ chế dung hợp văn hóa Đông – Tây',
+          text: 'Chỉ ra sự chuyển dịch từ tâm thế phòng vệ truyền thống sang chủ động lựa chọn tinh hoa nhân loại trong văn học, kiến trúc, ngôn ngữ và tư tưởng.'
+        },
+        {
+          heading: 'Định hướng hội nhập tự chủ',
+          text: 'Nhấn mạnh năng lực “dung hợp” chứ không hòa tan là sức sống bền bỉ đưa văn hóa Việt bước ra thế giới.'
+        }
+      ],
+      quote: '“Dung hợp văn hóa là nghệ thuật biến cái ngoại sinh thành sinh lực mới trên gốc rễ dân tộc.”',
+      takeaway: 'Cơ sở lý luận sắc bén giúp người trẻ hiểu quy luật giao lưu văn hóa trong tiến trình lịch sử.'
+    },
+    {
+      id: 'tiep-bien-van-hoa-ly-thuyet-he-thong',
+      shortTitle: 'Tiếp biến (Hệ thống)',
+      bgWord: 'HỆ THỐNG',
+      title: 'Tiếp biến văn hóa Việt Nam dưới góc nhìn lý thuyết hệ thống',
+      author: 'PGS. TS. Nguyễn Thừa Hỷ · ĐH KHXH&NV',
+      url: 'https://hcmussh.edu.vn/static/document/TiepbienVHVN.pdf',
+      image: './assets/books/tiep-bien-van-hoa-ly-thuyet-he-thong.jpg?v=11',
+      accentColor: '#38bdf8',
+      glow1: 'rgba(56, 189, 248, 0.46)',
+      glow2: 'rgba(251, 191, 36, 0.36)',
+      bullets: [
+        {
+          heading: 'Tiếp biến văn hóa như một hệ thống động',
+          text: 'Phân tích quá trình tiếp xúc và biến đổi kép về văn hóa – tâm lý thông qua mạng lưới tương tác thuận nghịch giữa các thành tố văn hóa.'
+        },
+        {
+          heading: 'Đa tầng chủ thể: Quốc gia đến Cá nhân',
+          text: 'Mở rộng khung quan sát từ cấp vĩ mô quốc gia, khu vực xuống tới vùng miền, cộng đồng làng xã và ứng xử của từng cá nhân.'
+        },
+        {
+          heading: 'Tư duy phức hợp đa chiều trong hội nhập',
+          text: 'Đề xuất vượt qua cách nhìn nhị nguyên giản đơn (“tốt – xấu”, “ta – người”) để tiếp cận văn hóa Việt như một chỉnh thể tự điều chỉnh.'
+        }
+      ],
+      quote: '“Tiếp biến văn hóa là sự tương tác đa chiều giúp một hệ thống văn hóa tự làm mới để tồn tại.”',
+      takeaway: 'Phương pháp luận hiện đại giúp lý giải sâu sắc sự vận động linh hoạt của văn hóa Việt Nam.'
+    },
+    {
+      id: 'giao-luu-tiep-bien-trong-toan-cau-hoa',
+      shortTitle: 'Bản sắc & Toàn cầu hóa',
+      bgWord: 'TOÀN CẦU',
+      title: 'Giao lưu tiếp biến văn hóa & bảo tồn bản sắc văn hóa Việt Nam trong toàn cầu hóa',
+      author: 'Tài liệu chuyên khảo · ĐH KHXH&NV TP.HCM',
+      url: 'https://www.studocu.vn/vn/document/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dai-hoc-quoc-gia-thanh-pho-ho-chi-minh/co-so-van-hoa-viet-nam/giao-luu-tiep-bien-van-hoa-va-bao-ton-ban-sac-van-hoa-viet-nam-trong-toan-cau/134267905?sid=755133971794715415',
+      image: './assets/books/giao-luu-tiep-bien-trong-toan-cau-hoa.jpg?v=11',
+      accentColor: '#14b8a6',
+      glow1: 'rgba(20, 184, 166, 0.44)',
+      glow2: 'rgba(245, 158, 11, 0.36)',
+      bullets: [
+        {
+          heading: 'Thách thức của làn sóng toàn cầu hóa',
+          text: 'Nhận diện nguy cơ đồng hóa văn hóa, phai nhạt tiếng Việt và giá trị gia đình trước sức ép của công nghệ số và văn hóa tiêu dùng.'
+        },
+        {
+          heading: 'Bản lĩnh chọn lọc tinh hoa thế giới',
+          text: 'Vận dụng bài học lịch sử giao lưu văn hóa để chủ động tiếp thu khoa học, văn minh nhân loại phục vụ phát triển đất nước.'
+        },
+        {
+          heading: 'Vai trò thế hệ trẻ bảo vệ bản sắc',
+          text: 'Khẳng định trách nhiệm giáo dục di sản, làm giàu truyền thống dân tộc bằng sáng tạo đương đại trên trường quốc tế.'
+        }
+      ],
+      quote: '“Toàn cầu hóa không làm mất đi bản sắc nếu mỗi thế hệ biết giữ lửa văn hóa từ cội nguồn.”',
+      takeaway: 'Cảnh tỉnh và định hướng hành động thiết thực để phát triển bền vững mà không đánh mất căn cước Việt.'
+    },
+    {
+      id: 'van-hoa-viet-nam-truyen-thong-va-hien-dai',
+      shortTitle: 'Truyền thống & Hiện đại',
+      bgWord: 'HIỆN ĐẠI',
+      title: 'Một số vấn đề văn hóa Việt Nam truyền thống và hiện đại',
+      author: 'PGS. TS. Nguyễn Đăng Duy',
+      url: 'https://drive.google.com/file/d/18if2mzox189ix8vDRsmikI64q--jdnVi/view',
+      image: './assets/books/van-hoa-viet-nam-truyen-thong-va-hien-dai.jpg?v=11',
+      accentColor: '#e11d48',
+      glow1: 'rgba(225, 29, 72, 0.44)',
+      glow2: 'rgba(56, 189, 248, 0.38)',
+      bullets: [
+        {
+          heading: 'Dòng chảy từ cội nguồn lúa nước đến hiện đại',
+          text: 'Hệ thống hóa đặc trưng văn hóa truyền thống Việt Nam từ thời dựng nước, cột mốc tự chủ Đại Việt đến sự chuyển mình thời kỳ đổi mới.'
+        },
+        {
+          heading: 'Tư tưởng của các danh nhân văn hóa lớn',
+          text: 'Phân tích di sản tư tưởng của Nguyễn Trãi, Nguyễn Bỉnh Khiêm, Lê Quý Đôn, Nguyễn Đình Chiểu và Hồ Chí Minh trong việc định hình nhân cách Việt.'
+        },
+        {
+          heading: 'Xây dựng văn hóa & con người mới',
+          text: 'Giải quyết hài hòa mối quan hệ giữa bảo tồn thuần phong mỹ tục làng xã với đòi hỏi năng động, sáng tạo của kinh tế thị trường và công nghiệp hóa.'
+        }
+      ],
+      quote: '“Văn hóa vừa là nền tảng tinh thần vững chắc vừa là động lực nội sinh đưa dân tộc đi tới tương lai.”',
+      takeaway: 'Công trình tổng hợp công phu kết nối giá trị truyền thống ngàn đời với khát vọng hiện đại hóa.'
     }
   ];
 
@@ -343,7 +604,18 @@
       if (raw) {
         const parsed = JSON.parse(raw);
         if (Array.isArray(parsed) && parsed.length > 0) {
-          const existingIds = new Set(parsed.map((b) => b && b.id));
+          const defMap = new Map(DEFAULT_BOOKS.map((b) => [b.id, b]));
+          const existingIds = new Set();
+          for (const item of parsed) {
+            if (item && item.id) {
+              existingIds.add(item.id);
+              const def = defMap.get(item.id);
+              if (def) {
+                item.url = def.url;
+                item.image = def.image;
+              }
+            }
+          }
           for (const def of DEFAULT_BOOKS) {
             if (!existingIds.has(def.id)) {
               parsed.push(JSON.parse(JSON.stringify(def)));
