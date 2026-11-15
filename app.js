@@ -2,7 +2,7 @@
   'use strict';
 
   const T = window.THREE;
-  const STORAGE_KEY = 'tri_an_20_11_books_v13';
+  const STORAGE_KEY = 'tri_an_20_11_books_v14';
   const SETTINGS_KEY = 'tri_an_20_11_settings_v3';
   const PUBLIC_GITHUB_PAGES_URL = 'https://11b10.github.io/2011/';
 
@@ -32,7 +32,8 @@
     'tranh-dan-gian-viet-nam',
     'hai-ba-trung-truyen-tranh-lich-su',
     'truyen-kieu-nguyen-du',
-    'tuc-ngu-ca-dao-dan-ca-viet-nam'
+    'tuc-ngu-ca-dao-dan-ca-viet-nam',
+    'la-co-theu-sau-chu-vang'
   ]);
 
   const DEFAULT_BOOKS = [
@@ -376,29 +377,29 @@
       id: 'tran-hung-dao-lsvn-bang-tranh',
       shortTitle: 'Trần Hưng Đạo',
       bgWord: 'HƯNG ĐẠO',
-      title: 'Lịch sử Việt Nam bằng tranh: Trần Hưng Đạo',
-      author: 'Tôn Nữ Quỳnh Trân · Họa sĩ Nguyễn Quang Cảnh (NXB Trẻ)',
+      title: 'Lịch sử Việt Nam bằng tranh – Tập 25: Trần Hưng Đạo',
+      author: 'Chủ biên: Trần Bạch Đằng · NXB Trẻ',
       url: 'https://drive.google.com/file/d/1K5lEo95UtpNJydBvfwtK7pdHf4UigEls/view?usp=drivesdk',
-      image: './assets/books/tran-hung-dao-lsvn-bang-tranh.jpg?v=11',
+      image: './assets/books/tran-hung-dao-lsvn-bang-tranh.jpg?v=13',
       accentColor: '#f97316',
       glow1: 'rgba(249, 115, 22, 0.46)',
       glow2: 'rgba(220, 38, 38, 0.40)',
       bullets: [
         {
-          heading: 'Khí phách Quốc công Tiết chế Trần Hưng Đạo',
-          text: 'Tái hiện chân dung vị anh hùng kiệt xuất ba lần lãnh đạo quân dân Đại Việt đánh bại đế chế Nguyên Mông xâm lược thế kỷ XIII.'
+          heading: 'Thân thế vì nước quên nhà & trọng dụng hiền tài',
+          text: 'Từ bậc vương tôn tài văn võ song toàn biết gạt bỏ thù riêng vì đại cục gia tộc – quốc gia, đến tấm gương rộng mở chiêu mộ nhân tài bình dân như Phạm Ngũ Lão, Yết Kiêu, Dã Tượng.'
         },
         {
-          heading: 'Hào khí Đông A & trận quyết chiến Bạch Đằng',
-          text: 'Từ áng thiên cổ hùng văn “Hịch Tướng Sĩ” đến mưu lược đóng cọc gỗ đầu bịt sắt trên sông Bạch Đằng đại phá thủy quân Ô Mã Nhi.'
+          heading: 'Ba lần kháng chiến chống Nguyên Mông & chiến thắng Bạch Đằng',
+          text: 'Trên cương vị Quốc công Tiết chế, Trần Hưng Đạo soạn Hịch tướng sĩ, Binh thư yếu lược và chỉ huy quân dân Đại Việt lập nên đại thắng Bạch Đằng năm 1288.'
         },
         {
-          heading: 'Sử Việt gần gũi qua từng trang tranh',
-          text: 'Kết hợp sử liệu chuẩn xác với nét vẽ minh họa sinh động thuộc bộ sách Lịch sử Việt Nam bằng tranh kinh điển của NXB Trẻ.'
+          heading: 'Di huấn giữ nước & cảm hứng truyện tranh lịch sử hiện đại',
+          text: 'Lời dặn “khoan thư sức dân làm kế sâu rễ bền gốc” cùng hình thức kể sử bằng tranh truyền lửa yêu nước và cảm hứng sáng tạo cho thế hệ trẻ hôm nay.'
         }
       ],
-      quote: '“Nếu bệ hạ muốn hàng, xin hãy chém đầu thần trước đã!”',
-      takeaway: 'Khắc sâu bài học đại đoàn kết, lòng trung nghĩa và trí tuệ quân sự lỗi lạc của cha ông.'
+      quote: '“Khoan thư sức dân để làm kế sâu rễ bền gốc — đó là thượng sách giữ nước muôn đời.”',
+      takeaway: 'Tác phẩm truyện tranh lịch sử kinh điển của NXB Trẻ khắc họa trọn vẹn nhân cách, mưu lược và hào khí Đông A của Hưng Đạo Đại Vương.'
     },
     {
       id: 'tuc-mac-co-giai-nhan',
@@ -763,6 +764,34 @@
       ],
       quote: '“Tục ngữ, ca dao là tấm gương phản chiếu trung thực nhất tâm hồn, trí tuệ và vẻ đẹp ngôn ngữ ngàn đời của nhân dân Việt Nam.”',
       takeaway: 'Công trình sưu tầm, nghiên cứu kinh điển của Vũ Ngọc Phan mở ra kho tàng trí tuệ và tâm hồn dân gian Việt Nam.'
+    },
+    {
+      id: 'la-co-theu-sau-chu-vang',
+      shortTitle: 'Lá cờ thêu 6 chữ vàng',
+      bgWord: 'SÁU CHỮ VÀNG',
+      title: 'Lá cờ thêu sáu chữ vàng',
+      author: 'Nhà văn Nguyễn Huy Tưởng',
+      url: 'https://vi.wikisource.org/wiki/L%C3%A1_c%E1%BB%9D_th%C3%AAu_s%C3%A1u_ch%E1%BB%AF_v%C3%A0ng/Ch%C6%B0%C6%A1ng_I',
+      image: './assets/books/la-co-theu-sau-chu-vang.jpg?v=13',
+      accentColor: '#ef4444',
+      glow1: 'rgba(239, 68, 68, 0.46)',
+      glow2: 'rgba(250, 204, 21, 0.40)',
+      bullets: [
+        {
+          heading: 'Trái cam bóp nát bên bến Bình Than',
+          text: 'Tái hiện nỗi uất ức và lòng yêu nước cháy bỏng của thiếu niên Hoài Văn Hầu Trần Quốc Toản khi vì còn nhỏ tuổi mà không được dự bàn việc quân trước họa xâm lăng Nguyên Mông.'
+        },
+        {
+          heading: 'Ngọn cờ đỏ thêu sáu chữ vàng xung trận',
+          text: 'Được mẹ trao lá cờ thêu sáu chữ vàng “Phá cường địch, báo hoàng ân”, chàng thiếu niên mười sáu tuổi chiêu mộ hơn ngàn tráng sĩ trẻ tuổi lập đội quân riêng sát cánh cùng tướng sĩ nhà Trần.'
+        },
+        {
+          heading: 'Khúc tráng ca tuổi trẻ Việt Nam giữ nước',
+          text: 'Từ núi rừng Ma Lục đến chiến trường Tây Kết, Chương Dương, Hàm Tử, hình tượng Trần Quốc Toản trở thành biểu tượng bất tử cho chí khí và lòng dũng cảm của thế hệ trẻ Việt Nam.'
+        }
+      ],
+      quote: '“Phá cường địch, báo hoàng ân — sáu chữ vàng rực cháy trên lá cờ người thiếu niên anh hùng đất Đại Việt.”',
+      takeaway: 'Kiệt tác văn học lịch sử của Nguyễn Huy Tưởng khơi dậy hào khí Đông A và khát vọng cống hiến của tuổi trẻ qua mọi thời đại.'
     }
   ];
 
