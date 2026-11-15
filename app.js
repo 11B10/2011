@@ -2,7 +2,7 @@
   'use strict';
 
   const T = window.THREE;
-  const STORAGE_KEY = 'tri_an_20_11_books_v12';
+  const STORAGE_KEY = 'tri_an_20_11_books_v13';
   const SETTINGS_KEY = 'tri_an_20_11_settings_v3';
   const PUBLIC_GITHUB_PAGES_URL = 'https://11b10.github.io/2011/';
 
@@ -25,7 +25,14 @@
     'van-hoa-va-hoi-nhap-tap-2',
     'tiep-bien-van-hoa-ly-thuyet-he-thong',
     'giao-luu-tiep-bien-trong-toan-cau-hoa',
-    'van-hoa-viet-nam-truyen-thong-va-hien-dai'
+    'van-hoa-viet-nam-truyen-thong-va-hien-dai',
+    'viet-nam-phong-tuc',
+    'tet-co-truyen-viet-nam',
+    'van-hoa-viet-nam-nhin-tu-my-thuat',
+    'tranh-dan-gian-viet-nam',
+    'hai-ba-trung-truyen-tranh-lich-su',
+    'truyen-kieu-nguyen-du',
+    'tuc-ngu-ca-dao-dan-ca-viet-nam'
   ]);
 
   const DEFAULT_BOOKS = [
@@ -560,6 +567,202 @@
       ],
       quote: '“Văn hóa vừa là nền tảng tinh thần vững chắc vừa là động lực nội sinh đưa dân tộc đi tới tương lai.”',
       takeaway: 'Công trình tổng hợp công phu kết nối giá trị truyền thống ngàn đời với khát vọng hiện đại hóa.'
+    },
+    {
+      id: 'viet-nam-phong-tuc',
+      shortTitle: 'Việt Nam phong tục',
+      bgWord: 'PHONG TỤC',
+      title: 'Việt Nam phong tục',
+      author: 'Học giả Phan Kế Bính',
+      url: 'https://www.scribd.com/document/716869766/Sach-Vi%E1%BB%87t-Nam-phong-t%E1%BB%A5c-Phan-K%E1%BA%BF-Binh',
+      image: './assets/books/viet-nam-phong-tuc.jpg?v=12',
+      accentColor: '#d97706',
+      glow1: 'rgba(217, 119, 6, 0.45)',
+      glow2: 'rgba(180, 83, 9, 0.36)',
+      bullets: [
+        {
+          heading: 'Bức tranh sinh hoạt từ gia tộc đến làng xã',
+          text: 'Mở ra bức tranh sinh hoạt độc đáo của người Việt hơn một thế kỷ trước, từ đạo lý gia đình, họ hàng đến lệ làng và đời sống xã hội.'
+        },
+        {
+          heading: 'Khám phá gốc tích lễ Tết, cưới hỏi, tế tự',
+          text: 'Dẫn dắt người đọc tìm hiểu nguồn gốc các phong tục, nghi lễ, lễ Tết, cưới hỏi qua lối viết điềm đạm, dí dỏm và sâu cay.'
+        },
+        {
+          heading: 'Gạn đục khơi trong — giữ gìn quốc túy',
+          text: 'Giúp nhận diện rõ đâu là nét đẹp “quốc túy” cần trân trọng bảo lưu và đâu là những hủ tục rườm rà cần mạnh dạn cải cách.'
+        }
+      ],
+      quote: '“Xét phong tục một nước tức là xét cái tâm lý, cái trình độ văn minh của cả một dân tộc qua bao đời.”',
+      takeaway: 'Chuyến “xuyên không” thú vị về hơn một thế kỷ trước giúp thấu hiểu cội nguồn văn hóa Việt và suy ngẫm cho hiện tại.'
+    },
+    {
+      id: 'tet-co-truyen-viet-nam',
+      shortTitle: 'Tết cổ truyền VN',
+      bgWord: 'TẾT VIỆT',
+      title: 'Tết cổ truyền Việt Nam',
+      author: 'Nhiều tác giả · Tủ sách Văn hóa',
+      url: 'https://fr.scribd.com/document/444695709/T%E1%BA%BFt-C%E1%BB%95-Truy%E1%BB%81n-Vi%E1%BB%87t-Nam',
+      image: './assets/books/tet-co-truyen-viet-nam.jpg?v=12',
+      accentColor: '#dc2626',
+      glow1: 'rgba(220, 38, 38, 0.46)',
+      glow2: 'rgba(250, 204, 21, 0.38)',
+      bullets: [
+        {
+          heading: 'Không khí Tết xưa và nghi lễ truyền thống',
+          text: 'Đưa người đọc trở về với không khí Tết cổ truyền ấm áp qua những phong tục từ lễ tiễn Ông Công Ông Táo, dựng cây nêu đến đêm Giao thừa thiêng liêng.'
+        },
+        {
+          heading: 'Hương vị bánh chưng xanh và lời chúc đầu xuân',
+          text: 'Từ tục gói bánh chưng, bày mâm ngũ quả cúng tổ tiên đến phong tục xông đất, mừng tuổi và xin chữ đầu năm đều chứa đựng ý nghĩa nhân văn sâu sắc.'
+        },
+        {
+          heading: 'Gìn giữ linh hồn văn hóa và ký ức đoàn viên',
+          text: 'Khơi dậy tình yêu quê hương, lòng hiếu kính tổ tiên và ý thức gìn giữ những giá trị sum vầy thiêng liêng của dân tộc Việt.'
+        }
+      ],
+      quote: '“Tết không chỉ là thời khắc chuyển giao năm cũ và năm mới, mà còn là nơi lưu giữ ký ức, phong tục và linh hồn văn hóa Việt Nam.”',
+      takeaway: 'Hành trình trở về với hương vị Tết xưa để thêm yêu và gìn giữ linh hồn văn hóa đoàn viên của người Việt.'
+    },
+    {
+      id: 'van-hoa-viet-nam-nhin-tu-my-thuat',
+      shortTitle: 'VHVN nhìn từ mỹ thuật',
+      bgWord: 'MỸ THUẬT',
+      title: 'Văn hóa Việt Nam nhìn từ mỹ thuật',
+      author: 'PGS. Chu Quang Trứ',
+      url: 'https://fr.scribd.com/document/955700367/V%C4%83n-Hoa-Vi%E1%BB%87t-Nam-Nhin-T%E1%BB%AB-M%E1%BB%B9-Thu%E1%BA%ADt-T%E1%BA%ADp-1-Chu-Quang-Tr%E1%BB%A9',
+      image: './assets/books/van-hoa-viet-nam-nhin-tu-my-thuat.jpg?v=12',
+      accentColor: '#0d9488',
+      glow1: 'rgba(13, 148, 136, 0.44)',
+      glow2: 'rgba(217, 119, 6, 0.36)',
+      bullets: [
+        {
+          heading: 'Vẻ đẹp văn hóa qua kiến trúc đình chùa cổ',
+          text: 'Khám phá chiều sâu văn hóa dân tộc qua các công trình kiến trúc truyền thống như mái đình làng, chùa cổ, tháp gạch và điêu khắc gỗ đá.'
+        },
+        {
+          heading: 'Tâm hồn dân tộc trong từng nét chạm khắc',
+          text: 'Từ rồng thời Lý – Trần, chạm gỗ đình làng thế kỷ XVI–XVII đến nghệ thuật trang trí dân gian đều phản chiếu lịch sử và thẩm mỹ hồn hậu của người Việt.'
+        },
+        {
+          heading: 'Nhịp cầu nối hiện tại với cội nguồn nghệ thuật',
+          text: 'Giúp thế hệ hôm nay đọc hiểu ngôn ngữ tạo hình của cha ông để thêm yêu, tự hào và trân trọng di sản mỹ thuật Việt Nam.'
+        }
+      ],
+      quote: '“Mỗi mái đao cong, mỗi nét chạm khắc nơi đình làng chùa cổ đều lưu giữ tâm hồn, lịch sử và bản lĩnh sáng tạo của dân tộc Việt.”',
+      takeaway: 'Hành trình khám phá vẻ đẹp lịch sử và tâm hồn dân tộc qua kiến trúc đình chùa, điêu khắc và mỹ thuật truyền thống.'
+    },
+    {
+      id: 'tranh-dan-gian-viet-nam',
+      shortTitle: 'Tranh dân gian VN',
+      bgWord: 'TRANH VIỆT',
+      title: 'Tranh dân gian Việt Nam',
+      author: 'Tủ sách Mỹ thuật Phổ thông · NXB Mỹ Thuật',
+      url: 'https://drive.google.com/file/d/1GKNJpbm33Bs2yH1q6CRcu6j722c_nC4p/view?usp=sharing',
+      image: './assets/books/tranh-dan-gian-viet-nam.jpg?v=12',
+      accentColor: '#b91c1c',
+      glow1: 'rgba(185, 28, 28, 0.44)',
+      glow2: 'rgba(234, 179, 8, 0.38)',
+      bullets: [
+        {
+          heading: 'Tinh hoa các dòng tranh Đông Hồ, Hàng Trống, Kim Hoàng',
+          text: 'Giới thiệu toàn diện nguồn gốc, kỹ thuật khắc ván in, chất liệu giấy dó điệp óng ánh và bảng màu tự nhiên của các dòng tranh dân gian nổi tiếng.'
+        },
+        {
+          heading: 'Ước vọng bình dị và sinh hoạt của người Việt xưa',
+          text: 'Qua mỗi bức tranh Vinh hoa, Phú quý, Đám cưới chuột hay Ngũ hổ, người đọc bắt gặp phong tục, tín ngưỡng và khát vọng ấm no của cha ông.'
+        },
+        {
+          heading: 'Di sản nghệ thuật truyền đời của dân tộc',
+          text: 'Khẳng định giá trị thẩm mỹ độc đáo của dòng tranh dân gian và khơi dậy ý thức bảo tồn di sản văn hóa truyền thống qua nhiều thế hệ.'
+        }
+      ],
+      quote: '“Màu dân tộc sáng bừng trên giấy điệp — mỗi bức tranh dân gian là một lát cắt sống động về ước mơ, tín ngưỡng và tâm hồn Việt.”',
+      takeaway: 'Khám phá thế giới đầy màu sắc của tranh Đông Hồ, Hàng Trống, Kim Hoàng trên nền giấy dó điệp truyền thống.'
+    },
+    {
+      id: 'hai-ba-trung-truyen-tranh-lich-su',
+      shortTitle: 'Hai Bà Trưng',
+      bgWord: 'MÊ LINH',
+      title: 'Hai Bà Trưng (Truyện tranh Lịch sử)',
+      author: 'Nhiều tác giả · NXB Đại học Sư phạm',
+      url: 'https://online.pubhtml5.com/lpais/pgjp/',
+      image: './assets/books/hai-ba-trung-truyen-tranh-lich-su.jpg?v=12',
+      accentColor: '#e11d48',
+      glow1: 'rgba(225, 29, 72, 0.45)',
+      glow2: 'rgba(245, 158, 11, 0.38)',
+      bullets: [
+        {
+          heading: 'Lời thề Mê Linh vang vọng non sông',
+          text: 'Tái hiện sống động bối cảnh đất nước dưới ách đô hộ tàn bạo của nhà Đông Hán và ngọn lửa căm thù thúc giục hai chị em Trưng Trắc, Trưng Nhị phất cờ khởi nghĩa.'
+        },
+        {
+          heading: 'Khí phách nữ anh hùng cưỡi voi ra trận',
+          text: 'Hình ảnh Hai Bà Trưng cưỡi voi chiến cùng các nữ tướng khắp bốn phương tiến đánh 65 thành trì ở Lĩnh Nam, quét sạch quân xâm lược Tô Định.'
+        },
+        {
+          heading: 'Biểu tượng bất khuất của phụ nữ và dân tộc Việt',
+          text: 'Ca ngợi tinh thần yêu nước nồng nàn, ý chí độc lập tự chủ và hào khí anh dũng mở đầu trang sử vàng chống ngoại xâm của dân tộc.'
+        }
+      ],
+      quote: '“Một xin rửa sạch nước thù, hai xin dựng lại nghiệp xưa họ Hùng — hào khí Mê Linh muôn đời rạng rỡ non sông.”',
+      takeaway: 'Bộ truyện tranh lịch sử hào hùng tái hiện cuộc khởi nghĩa Hai Bà Trưng giành lại nền độc lập cho dân tộc.'
+    },
+    {
+      id: 'truyen-kieu-nguyen-du',
+      shortTitle: 'Truyện Kiều',
+      bgWord: 'ĐOẠN TRƯỜNG',
+      title: 'Truyện Kiều',
+      author: 'Đại thi hào Nguyễn Du',
+      url: 'https://drive.google.com/file/d/1oMHOq0yd3X8RGa66119K-ao7kF-V3E_W/view?usp=sharing',
+      image: './assets/books/truyen-kieu-nguyen-du.jpg?v=12',
+      accentColor: '#7c3aed',
+      glow1: 'rgba(124, 58, 237, 0.46)',
+      glow2: 'rgba(251, 191, 36, 0.36)',
+      bullets: [
+        {
+          heading: 'Mười lăm năm lưu lạc của bậc tài sắc',
+          text: 'Kể về cuộc đời đầy sóng gió của nàng Thúy Kiều tài sắc vẹn toàn, vì chữ hiếu bán mình chuộc cha mà phải trải qua mười lăm năm chìm nổi truân chuyên.'
+        },
+        {
+          heading: 'Tiếng kêu thương và giá trị nhân đạo sâu sắc',
+          text: 'Tố cáo những thế lực bất công, tàn nhẫn chà đạp con người trong xã hội phong kiến, đồng thời ngợi ca lòng hiếu thảo, thủy chung và khát vọng tự do công lý.'
+        },
+        {
+          heading: 'Đỉnh cao nghệ thuật thơ lục bát tiếng Việt',
+          text: 'Kết tinh tinh hoa ngôn ngữ dân tộc và nghệ thuật tả cảnh ngụ tình điêu luyện, trở thành kiệt tác bất hủ của nền văn học Việt Nam và văn hóa nhân loại.'
+        }
+      ],
+      quote: '“Chữ tâm kia mới bằng ba chữ tài — tiếng đàn và số phận nàng Kiều mãi là khúc ca nhân đạo bất hủ của tâm hồn Việt.”',
+      takeaway: 'Kiệt tác thơ lục bát của đại thi hào Nguyễn Du ngợi ca vẻ đẹp tâm hồn, chữ Hiếu – chữ Tâm và khát vọng hạnh phúc của con người.'
+    },
+    {
+      id: 'tuc-ngu-ca-dao-dan-ca-viet-nam',
+      shortTitle: 'Tục ngữ, ca dao, dân ca',
+      bgWord: 'CA DAO',
+      title: 'Tục ngữ, ca dao, dân ca Việt Nam',
+      author: 'Nhà nghiên cứu Vũ Ngọc Phan',
+      url: 'https://pubhtml5.com/tdgd/nkpc/T%E1%BB%A5c-ng%E1%BB%AF-ca-dao-d%C3%A2n-ca-Vi%E1%BB%87t-Nam-V%C5%A9-Ng%E1%BB%8Dc-Phan-bi%C3%AAn-so%E1%BA%A1n/',
+      image: './assets/books/tuc-ngu-ca-dao-dan-ca-viet-nam.jpg?v=12',
+      accentColor: '#059669',
+      glow1: 'rgba(5, 150, 105, 0.45)',
+      glow2: 'rgba(250, 204, 21, 0.36)',
+      bullets: [
+        {
+          heading: 'Kho tàng kinh nghiệm sống và trí tuệ dân gian',
+          text: 'Tuyển chọn và phân tích hệ thống những câu tục ngữ đúc kết tri thức lao động sản xuất, quan sát thiên nhiên và đạo lý ứng xử của ông cha.'
+        },
+        {
+          heading: 'Lời ca dao ngọt ngào và điệu dân ca mộc mạc',
+          text: 'Tái hiện vẻ đẹp quê hương đất nước, tình nghĩa gia đình, tình yêu đôi lứa và đời sống tâm hồn phong phú của người bình dân Việt Nam.'
+        },
+        {
+          heading: 'Gìn giữ vẻ đẹp trong sáng của tiếng Việt',
+          text: 'Mỗi câu ca dao, tục ngữ là một viên ngọc ngôn từ giúp thế hệ hôm nay thêm yêu tiếng Việt, trân trọng cội nguồn và tự hào về bản sắc dân tộc.'
+        }
+      ],
+      quote: '“Tục ngữ, ca dao là tấm gương phản chiếu trung thực nhất tâm hồn, trí tuệ và vẻ đẹp ngôn ngữ ngàn đời của nhân dân Việt Nam.”',
+      takeaway: 'Công trình sưu tầm, nghiên cứu kinh điển của Vũ Ngọc Phan mở ra kho tàng trí tuệ và tâm hồn dân gian Việt Nam.'
     }
   ];
 
