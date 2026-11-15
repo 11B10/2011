@@ -2,7 +2,7 @@
   'use strict';
 
   const T = window.THREE;
-  const STORAGE_KEY = 'tri_an_20_11_books_v14';
+  const STORAGE_KEY = 'tri_an_20_11_books_v15';
   const SETTINGS_KEY = 'tri_an_20_11_settings_v3';
   const PUBLIC_GITHUB_PAGES_URL = 'https://11b10.github.io/2011/';
 
@@ -99,7 +99,7 @@
       bgWord: 'CƠ SỞ',
       title: 'Cơ sở văn hóa Việt Nam',
       author: 'GS. TSKH Trần Ngọc Thêm',
-      url: 'https://drive.google.com/file/d/1cS8409XUJLqwh2Bjf1gH8AlKL2CniSBb/view',
+      url: 'https://11b10.github.io/2011/assets/pdfs/Co_so_van_hoa_Viet_Nam_Tran_Ngoc_Them.pdf',
       image: './assets/books/co-so-van-hoa-viet-nam.jpg',
       accentColor: '#fbbf24',
       glow1: 'rgba(251, 191, 36, 0.46)',
@@ -547,7 +547,7 @@
       bgWord: 'HIỆN ĐẠI',
       title: 'Một số vấn đề văn hóa Việt Nam truyền thống và hiện đại',
       author: 'PGS. TS. Nguyễn Đăng Duy',
-      url: 'https://drive.google.com/file/d/18if2mzox189ix8vDRsmikI64q--jdnVi/view',
+      url: 'https://www.scribd.com/document/944154899/Mot-so-van-de-van-hoa-Viet-Nam-truyen-thong-va-hien-dai',
       image: './assets/books/van-hoa-viet-nam-truyen-thong-va-hien-dai.jpg?v=11',
       accentColor: '#e11d48',
       glow1: 'rgba(225, 29, 72, 0.44)',
@@ -659,7 +659,7 @@
       bgWord: 'TRANH VIỆT',
       title: 'Tranh dân gian Việt Nam',
       author: 'Tủ sách Mỹ thuật Phổ thông · NXB Mỹ Thuật',
-      url: 'https://drive.google.com/file/d/1GKNJpbm33Bs2yH1q6CRcu6j722c_nC4p/view?usp=sharing',
+      url: 'https://11b10.github.io/2011/assets/pdfs/Tranh_dan_gian_Viet_Nam.pdf',
       image: './assets/books/tranh-dan-gian-viet-nam.jpg?v=12',
       accentColor: '#b91c1c',
       glow1: 'rgba(185, 28, 28, 0.44)',
@@ -715,7 +715,7 @@
       bgWord: 'ĐOẠN TRƯỜNG',
       title: 'Truyện Kiều',
       author: 'Đại thi hào Nguyễn Du',
-      url: 'https://drive.google.com/file/d/1oMHOq0yd3X8RGa66119K-ao7kF-V3E_W/view?usp=sharing',
+      url: 'https://11b10.github.io/2011/assets/pdfs/Truyen_Kieu_Nguyen_Du.pdf',
       image: './assets/books/truyen-kieu-nguyen-du.jpg?v=12',
       accentColor: '#7c3aed',
       glow1: 'rgba(124, 58, 237, 0.46)',
