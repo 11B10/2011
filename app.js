@@ -2,7 +2,7 @@
   'use strict';
 
   const T = window.THREE;
-  const STORAGE_KEY = 'tri_an_20_11_books_v16';
+  const STORAGE_KEY = 'tri_an_20_11_books_v17';
   const SETTINGS_KEY = 'tri_an_20_11_settings_v3';
   const PUBLIC_GITHUB_PAGES_URL = 'https://11b10.github.io/2011/';
 
@@ -519,7 +519,7 @@
       shortTitle: 'Bản sắc & Toàn cầu hóa',
       bgWord: 'TOÀN CẦU',
       title: 'Giao lưu tiếp biến văn hóa & bảo tồn bản sắc văn hóa Việt Nam trong toàn cầu hóa',
-      author: 'Tài liệu chuyên khảo · ĐH KHXH&NV TP.HCM',
+      author: 'TS. Nguyễn Thế Cường',
       url: 'https://www.studocu.vn/vn/document/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dai-hoc-quoc-gia-thanh-pho-ho-chi-minh/co-so-van-hoa-viet-nam/giao-luu-tiep-bien-van-hoa-va-bao-ton-ban-sac-van-hoa-viet-nam-trong-toan-cau/134267905?sid=755133971794715415',
       image: './assets/books/giao-luu-tiep-bien-trong-toan-cau-hoa.jpg?v=11',
       accentColor: '#14b8a6',
