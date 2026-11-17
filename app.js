@@ -2,7 +2,7 @@
   'use strict';
 
   const T = window.THREE;
-  const STORAGE_KEY = 'tri_an_20_11_books_v15';
+  const STORAGE_KEY = 'tri_an_20_11_books_v16';
   const SETTINGS_KEY = 'tri_an_20_11_settings_v3';
   const PUBLIC_GITHUB_PAGES_URL = 'https://11b10.github.io/2011/';
 
@@ -33,7 +33,8 @@
     'hai-ba-trung-truyen-tranh-lich-su',
     'truyen-kieu-nguyen-du',
     'tuc-ngu-ca-dao-dan-ca-viet-nam',
-    'la-co-theu-sau-chu-vang'
+    'la-co-theu-sau-chu-vang',
+    'chuyen-tao-lao-cua-vang-vang'
   ]);
 
   const DEFAULT_BOOKS = [
@@ -792,6 +793,34 @@
       ],
       quote: '“Phá cường địch, báo hoàng ân — sáu chữ vàng rực cháy trên lá cờ người thiếu niên anh hùng đất Đại Việt.”',
       takeaway: 'Kiệt tác văn học lịch sử của Nguyễn Huy Tưởng khơi dậy hào khí Đông A và khát vọng cống hiến của tuổi trẻ qua mọi thời đại.'
+    },
+    {
+      id: 'chuyen-tao-lao-cua-vang-vang',
+      shortTitle: 'Chuyện của Vàng Vàng',
+      bgWord: 'VÀNG VÀNG',
+      title: 'Chuyện tào lao của Vàng Vàng',
+      author: 'Họa sĩ Phan Kim Thanh · Comicola',
+      url: 'https://comi.mobi/truyen/chuyen-tao-lao-cua-vang-vang/',
+      image: './assets/books/chuyen-tao-lao-cua-vang-vang.jpg?v=15',
+      accentColor: '#eab308',
+      glow1: 'rgba(234, 179, 8, 0.46)',
+      glow2: 'rgba(239, 68, 68, 0.38)',
+      bullets: [
+        {
+          heading: 'Lăng kính hài hước về đời sống & văn hóa Việt',
+          text: 'Xoay quanh nhân vật Vàng Vàng ngộ nghĩnh, hồn nhiên cùng những mẩu chuyện đời thường, phong tục Tết, ẩm thực và thói quen mạng xã hội của giới trẻ Việt Nam.'
+        },
+        {
+          heading: 'Thế giới nhân cách hóa sinh động & dí dỏm',
+          text: 'Khéo léo biến những câu chuyện giao lưu văn hóa, lịch sử và thời sự quốc tế thành các màn tương tác hài hước, gần gũi giữa Vàng Vàng và bạn bè năm châu.'
+        },
+        {
+          heading: 'Dấu ấn webcomic Việt Nam hiện đại',
+          text: 'Từ hiện tượng mạng xã hội đến ấn phẩm truyện tranh được yêu thích trên Comicola, tác phẩm lan tỏa năng lượng tích cực và tình yêu văn hóa Việt bằng ngôn ngữ trẻ trung.'
+        }
+      ],
+      quote: '“Dù đôi lúc ngơ ngác và hay bị bắt nạt, Vàng Vàng vẫn luôn giữ trọn nụ cười hồn nhiên cùng tình yêu quê hương ấm áp.”',
+      takeaway: 'Bộ webcomic hài hước, duyên dáng của Phan Kim Thanh tái hiện đời sống và bản sắc người trẻ Việt giữa dòng chảy hội nhập.'
     }
   ];
 
